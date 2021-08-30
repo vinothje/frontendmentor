@@ -1,0 +1,86 @@
+.container {
+    position: relative;
+    height: 300px;
+    width: 600px;
+    border-radius: 15px;
+    border: solid 1px red;
+    display: flex;
+    padding: 10px;
+}
+
+.tipdetails {
+    position: relative;
+    width: 300px;
+    padding: 10px;
+}
+
+.selecttips {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+button {
+    width: 70px;
+    margin: 5px;
+}
+
+.finaldetails {
+    position: relative;
+    margin: 10px;
+    background-color: green;
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.tipamount {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.tipamountlabel {
+    width: 70%;
+}
+
+.calculate {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculate button {
+    width: 50%;
+}
+
+.total {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.totallabel {
+    width: 70%;
+}
+
+.reset {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset button {
+    width: 50%;
+}
+
+.buttonclicked {
+    background-color: blue;
+}

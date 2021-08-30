@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form id="myForm">
+    <div id="container" class="container">
+      <div id="tipDetails" class="tipdetails">
+          <div id="billLabel">Bill</div>
+          <input type="number" name="bill" id="bill">
+          <div id="selectTips" class="selecttips">
+            <div id="selectTipsLabel">
+              Select tip %
+            </div>
+            <button id="fivePercent">5%</button>
+            <button id="tenPercent">10%</button>
+            <button id="fifteenPercent">15%</button>
+            <button id="twentyFivePercent">25%</button>
+            <button id="fiftyPercent">50%</button>
+            <button id="customPercent">Custom</button>
+          </div>
+          <div id="peopleCount" class="peoplecount">
+            <div>Number of People</div>
+            <input type="number" name="numberOfPeople" id="numberOfPeople">
+          </div>
+          <div id="calculate" class="calculate">
+            <button id="calculateButton">Calculate</button>
+          </div>
+      </div>
+      <div id="finalDetails" class="finaldetails">
+        <div id="tipAmount" class="tipamount">
+          <div id="tipAmountLabel" class="tipamountlabel">Tip Amount / person</div>
+          <div id="tipAmountResult">$0.00</div>
+        </div>
+        <div id="total" class="total">
+          <div id="totalLabel" class="totallabel">Total / person</div>
+          <div id="totalResult">$0.00</div>
+        </div>
+        <div id="reset" class="reset">
+          <button id="resetButton">Reset</button>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>
